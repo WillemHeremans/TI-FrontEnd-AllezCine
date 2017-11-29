@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our superheroes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/squelette.css">
+
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery Version 1.11.1 -->
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- jQuery Slidey 0.0.1 -->
+<link href="asset/Carousel/dist/jquery.slidey.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<!--<script src="dist/jquery.slidey.min.js"></script>-->
+<script src="asset/Carousel/jquery.slidey.js"></script>
+<script src="asset/Carousel/dist/jquery.dotdotdot.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+<header>
+
+</header>
+<nav>
+<a href="#">HOME</a> |
+<a href="#">FILMS</a> |
+<a href="#">SERIES</a> |
+<a href="#"></a> |
+<a href="#"></a> |
+<a href="#"></a> |
+</nav>
+
+<div class="slide" id="slide">
+
+  <div id="slidey" style="display:none;">
+    <ul>
+      <li><img src="asset/Carousel/assets/1.jpg">
+        <p class="title">Star Wars</p>
+        <p class="description">After rescuing Han Solo from the palace of Jabba the Hutt, the rebels attempt to destroy the second Death Star, while Luke struggles to make Vader return from the dark side of the Force.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/2.jpg">
+        <p class="title">Silicon Valley</p>
+        <p class="description">Mike Judge brings his irreverent brand of humor to HBO in the new comedy series SILICON VALLEY. Partially inspired by Judge's own experiences as a Silicon Valley engineer in the late '80s, the show is a collaboration between Judge and Alec Berg.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/3.jpg">
+        <p class="title">Fringe</p>
+        <p class="description">The Fringe team explore the blurring line between the possible and the impossible. They are encountering glitches in the world they are living in, face threats from a parallel universe and try to prevent events that will lead to the destruction of their own universe.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/5.jpg">
+        <p class="title">Assassin's Creed</p>
+        <p class="description">hen Callum Lynch (Michael Fassbender) explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/4.jpg">
+        <p class="title">Star Wars</p>
+        <p class="description">Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
+      </li>
+    </ul>
+  </div>
+  <script>
+    $("#slidey").slidey();
+
+    $("#slidey").slidey({
+  interval: 3000,
+  listCount: 5,
+  showList: true,
+  showNodes: false,
+  nodeContainer: ""
+});
+  </script>
+
+</div>
+
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="socialmedia" style="position:fixed; margin-top:15%">
+<ul>
+<li>Twitter</li>
+<li>Facebook</li>
+<li>Pinterest</li>
+<li>Google+</li>
+</ul>
+</div>
+
+<div class="main">
+
+<div class="vedettes">
+
+
+
+<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"> <p class="text-under-film">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"> <p class="text-under-film">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">the bgf</p> <br />2017  &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+</div>
+<h2>FEATURED MOVIES</h2>
+<div class="feat-movies">
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+</div>
+
+
+<div class="main-block-movies">
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+</div>
+
+<div class="more-filters"></div>
+
+<h2>FEATURED SERIES</h2>
+<div class="feat-series" id="feat-series">
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+<div class="feat-movies-button"></div>
+</div>
+
+<div class="main-block-movies" id="main-block-series">
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+</div>
+
+
+
+<div class="more-filters"></div>
+
+<div class="feat-shop" id="feat-shop">
+
+<div class="movie-listing-detail" id="movie-listing-detail">
+
+<div class="movie-listing-detail-video">
+  
+<iframe width="592,8" height="500" src="https://www.youtube.com/embed/BZ3VQkK6Upo?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div class="movie-listing-detail-overview"></div>
+</div>
+</div>
+<div class="shop-movie-list">
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+</div>
+
+<div class="contact" id="contact">
+<div class="adress"> </div>
+<div class="call"> </div>
+<div class="email"> </div>
+<div class="social"> </div>
+<div class="form"> </div>
+</div>
+
+</div>
+
+<footer>
+<div class="subscribe-to-us">
+<div class="subscibe-bar"> </div>
+<div class="logo-footer"> </div>
+</div>
+<navbar></navbar>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+
+</script>
+</footer>
+
+</body>
+
+</html>
