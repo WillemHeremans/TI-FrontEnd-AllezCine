@@ -1,3 +1,409 @@
+
+
+.form-group {
+    margin:0;
+    padding:20px ;
+
+    &:first-child { border-color: transparent; }
+}
+.logotop{
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.form-control {
+  width: 400px !important;
+  padding: 0px 0px 0 0px;
+  margin-top: 10px;
+
+  margin-left: 140px !important;
+  color: #333;
+  font-size: 28px;
+  font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height:40px;
+    height: auto;
+
+    border-radius: 50px 0  0 50px !important;
+}
+.placeholder{
+  font-size: 28px;
+}
+.form-control :focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: transparent;
+
+    }
+
+#searchbtn
+{ border:0;
+margin-right: 400px;
+  margin-top: 8px;
+  color: #fff;
+  background:black;
+  font-size: 17px;
+  font-weight: 500;
+    border: 3px solid #555;
+    border-left: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  height: 40px;
+
+    width: 150px;
+border-radius: 0 50px 50px 0 !important;
+}
+.callheader{
+  float: right;
+  margin-top: -40px;
+  margin-right: 50px;
+}
+#loginbutton{
+float: right;
+margin-top: 2px;
+margin-right: 50px;
+background-color: #f28f43;
+color: white;
+height: 20px;
+width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+margin:0;
+background-color: white;}
+
+header{
+
+position: relative;
+
+width: 100%;
+height: 100px;
+}
+.uppernav {
+border: solid 2px green;
+overflow: hidden;
+background-color: #f28f43;
+width: 100%;
+height: 29px;
+position: relative;
+}
+nav a{
+display: inline-grid;
+width: 15%;
+position: relative;
+color: white;
+
+}
+
+div.slide{
+border: solid 2px violet;
+height:267px;
+width: 100%;
+}
+#slide:after {
+content: "";
+display: table;
+clear: both;
+}
+div.carrousel{
+border: solid 2px grey;
+height:267px;
+width: 80%;
+float:left;
+background-color: pink;
+}
+
+div.carrousel-item{
+border: solid 2px yellow;
+height:267px;
+width: 20%;
+float:right;
+background-color: darkmagenta;
+}
+div.carrousel-item-detail{
+border: solid 2px green;
+width: 100%;
+height:53px;
+float:right;
+background-color:black;
+display: block;
+}
+div.main{
+border: solid 2px red;
+position: relative;
+width: 80%;
+margin-right:10%;
+margin-left:10%;
+margin-top: 12%;
+
+
+}
+#main:after {
+content: "";
+display: table;
+clear: both;
+}
+div.vedettes{
+border: solid 2px grey;
+text-align: center;
+display: flex;
+width: 1000px;
+justify-content: space-around;
+margin-left: 40px;
+}
+
+.basic-rectangle {
+  display: flex;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+img.basic-rectangle6 {
+  display: flex;
+ flex-wrap: wrap;
+ padding: 5px;
+}
+#vedettes:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.text-under-film {
+  width: 80px;
+  text-align: right;
+padding: 0px !important;
+margin: 0px !important;
+}
+.shop-movie-list{
+  border: solid 2px grey;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+div.feat-movies{
+
+border: solid 2px yellow;
+position: relative;
+height: 40px;
+}
+
+#feat-movies:after {
+content: "";
+display: table;
+clear: both;
+}
+#slide {
+width: 100%;
+height:260PX;
+}
+
+div.feat-movies-button{
+border: solid 2px blue;
+background-color:#F2F0F1;
+float:left;
+position: relative;
+height:23px;
+width:9%;
+}
+#subscribetitle {
+  color: #f28f43;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+div.main-block-movies{
+
+  border: solid 2px grey;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+
+}
+
+#main-block-movies:after {
+content: "";
+display: table;
+clear: both;
+}
+div.feat-series{
+border: solid 2px green;
+position: relative;
+height: 40px;
+}
+#feat-series:after {
+content: "";
+display: table;
+clear: both;
+}
+div.main-block-series{
+border: solid 2px pink;
+position: inherit;
+height:250px;
+padding: 30px 15px;
+}
+#main-block-series:after {
+content: "";
+display: table;
+clear: both;
+}
+div.more-filters {
+border: solid 2px red;
+background-color:#f28f43;
+height:23px;
+width:10%;
+margin-left: 45%;
+margin-right: 45%;
+margin-top: 25px;
+margin-bottom: 25px;
+display: inline-block;
+position: inherit;
+}
+div.movie-listing {
+border: solid 2px green;
+background-color:lightgrey;
+height:200px;
+width:12%;
+padding: 4px 0px;
+margin-top: 25px;
+margin-right:25px;
+margin-left:25px;
+display:inline-block;
+}
+div.feat-shop{
+height:auto;
+border: solid 2px yellow;
+margin-top: 20px;
+position: inherit;
+}
+#feat-shop:after {
+content: "";
+display: table;
+clear: both;
+}
+div.movie-listing-detail{
+border: solid 2px blue;
+width:100%;
+height: 370px;
+}
+#movie-listing-detail:after {
+content: "";
+display: table;
+clear: both;
+}
+div.movie-listing-detail-video{
+border: solid 2px grey;
+width:50%;
+float:left;
+height: 370px;
+}
+div.movie-listing-detail-overview{
+border: solid 2px yellow;
+width:50%;
+float:right;
+background-color:#f28f43;
+height: 370px;
+}
+.plusdefilms{
+  color: white;
+  text-align: center;
+}
+.textdescriptiontitle{
+  font-weight: bold;
+  color: black;
+  margin-left: 50px;
+}
+.textdescription{
+  color: white;
+  font-size: 17px;
+}
+.textdescription2{
+  margin-left: 80px;
+  color: white;
+  font-size: 15px;
+}
+.contactimg {
+  justify-content: center;
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+div.contactform{
+position: relative;
+border: solid 2px pink;
+height:250px;
+width:20.8%;
+padding:8px 8px;
+}
+#contact:after {
+content: "";
+display: table;
+clear: both;
+}
+.subscribe-bar{
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  border-style: double;
+  border-color: grey;
+}
+
+.logobottom{
+  margin-right: 180px;
+  float:right;
+}
+#bottomnav{
+  margin-right: 140px;
+  float:right;
+  font-size: 9px;
+  width: 30%
+}
+#sendbutton{
+  margin-left: 211px;
+background-color: #f28f43;
+color: white;
+height: 36px;
+width: 85px;
+}
+
+#footer{
+  width: 100%;
+  background-color: #212121;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -30,9 +436,39 @@
 
 
 <header>
+  <img src="asset/images/logo.png" class="logotop">
+
+  <div class="container">
+
+  	<div class="row">
+
+      <div class="col-xs-10 col-xs-offset-1">
+      <form action="#" method="#" role="search">
+      <div class="input-group">
+      <input class="form-control" placeholder="Recherche " name="srch-term" id="ed-srch-term" type="text">
+      <div class="input-group-btn">
+      <button type="submit" id="searchbtn">
+      Go</button>
+      </div>
+      </div>
+      </form>
+      </div>
+  	</div>
+  </div>
+  <div class="callheader">
+  <svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <path d="M10.2957509,7.85830849 L10.3390021,7.81173027 C10.1515802,7.67199561 9.9785754,7.51673488 9.81998765,7.34594807 L10.2957509,7.85830849 L10.2957509,7.85830849 Z M10.3390021,7.81173027 C11.0166043,8.27751247 11.809543,8.46382535 12.5880647,8.35514284 C12.6745671,8.83645111 11.6797894,9.58170263 10.4110874,10.932471 C8.88287823,12.5782348 8.45036619,13.0750691 7.78718106,13.1837516 C7.80159812,12.4540262 7.61417624,11.7553529 7.25374954,11.13431 C7.12399593,10.932471 6.97982525,10.7461581 6.8212375,10.5753713 L5.37953069,9.02276399 C4.84609917,8.44829928 3.96665802,8.46382535 3.41880944,9.05381613 L1.91943436,10.6685278 L0.420059284,12.2832394 C-0.127789301,12.8732302 -0.142206369,13.8203206 0.391225148,14.3947853 L1.83293195,15.9473927 C1.9915197,16.1181795 2.16452452,16.2734402 2.3519464,16.4131749 C3.40439237,17.1429003 4.7884309,17.1739525 5.89854514,16.5063313 C7.16724713,16.2423881 9.18563666,15.2642454 11.9969649,12.2366612 C15.1398858,8.85197718 15.6877343,6.76993076 15.6012319,5.65360609 C15.9184074,4.61335918 15.7886538,3.46442975 15.2408052,2.53286536 C15.1110516,2.3310264 14.9668809,2.14471352 14.8082932,1.97392672 L13.3665864,0.421319391 C12.8331549,-0.153145321 11.9537137,-0.137619248 11.4058651,0.452371537 L9.90649006,2.06708316 L8.40711498,3.68179478 C7.8592664,4.27178556 7.84484933,5.21887603 8.37828085,5.79334075 L9.81998765,7.34594807 C9.9785754,7.51673488 10.1515802,7.67199561 10.3390021,7.81173027 L10.3390021,7.81173027 Z M15.2408052,2.53286536 L15.2840564,2.48628714 L14.8082932,1.97392672 C14.9668809,2.14471352 15.1110516,2.3310264 15.2408052,2.53286536 L15.2408052,2.53286536 Z M2.3086952,16.4597531 L2.3519464,16.4131749 C2.16452452,16.2734402 1.9915197,16.1181795 1.83293195,15.9473927 L2.3086952,16.4597531 L2.3086952,16.4597531 Z M7.25374954,11.13431 L7.29700074,11.0877317 L6.8212375,10.5753713 C6.97982525,10.7461581 7.12399593,10.932471 7.25374954,11.13431 L7.25374954,11.13431 Z" id="Shape" fill="#4A4A4A"></path>
+      </g>
+  </svg>
+(+00)456865345 &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="loginbutton" name="button">send</button>
+</div>
 
 </header>
-<nav>
+<nav class="uppernav">
 <a href="#">HOME</a> |
 <a href="#">FILMS</a> |
 <a href="#">SERIES</a> |
@@ -102,135 +538,159 @@
 
 
 
-<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"> <p class="text-under-film">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+<div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"> <p class="text-under-film">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"> <p class="text-under-film">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+<div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"> <p class="text-under-film">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+<div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+<div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-<div><img class="basic-rectangle" src="asset/images/Rectangle.jpg"><p class="text-under-film">the bgf</p> <br />2017  &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+<div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">the bgf</p> <br />2017  &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
 </div>
 <h2>FEATURED MOVIES</h2>
 <div class="feat-movies">
-<div class="feat-movies-button"></div>
-<div class="feat-movies-button"></div>
-<div class="feat-movies-button"></div>
+<div class="feat-movies-button"><p>All</p></div>
+<div class="feat-movies-button"><p>Action</p></div>
+<div class="feat-movies-button"><p>Policier</p></div>
 <div class="feat-movies-button"></div>
 </div>
 
 
 <div class="main-block-movies">
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 </div>
 
-<div class="more-filters"></div>
+<div class="more-filters"><p class="plusdefilms">plus de films</p></div>
 
 <h2>FEATURED SERIES</h2>
 <div class="feat-series" id="feat-series">
-<div class="feat-movies-button"></div>
-<div class="feat-movies-button"></div>
-<div class="feat-movies-button"></div>
+<div class="feat-movies-button"><p>All</p></div>
+<div class="feat-movies-button"><p>Action</p></div>
+<div class="feat-movies-button"><p>Policier</p></div>
 <div class="feat-movies-button"></div>
 </div>
 
 <div class="main-block-movies" id="main-block-series">
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-  <div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 </div>
 
 
 
-<div class="more-filters"></div>
+<div class="more-filters"><p class="plusdefilms">plus de films</p></div>
 
 <div class="feat-shop" id="feat-shop">
-
+<h2>SHOP MOVIES</h2>
 <div class="movie-listing-detail" id="movie-listing-detail">
 
 <div class="movie-listing-detail-video">
-  
-<iframe width="592,8" height="500" src="https://www.youtube.com/embed/BZ3VQkK6Upo?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+<iframe width="100%" height="370" src="https://www.youtube.com/embed/BZ3VQkK6Upo?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
-<div class="movie-listing-detail-overview"></div>
+<div class="movie-listing-detail-overview">
+<div><p class="textdescriptiontitle">CAPTAIN AMERICA CIVILWAR</p></div>
+<div><p class="textdescription">Resume:</p><div>      </div><p class="textdescription2">I tried reading many questions on stackoverflow but all of them works for one image. <br /> I have multiple images with different dimensions.</p></div>
+<div><p class="textdescription">release date:</p><div></div><p class="textdescription2">23/11/2017</p></div>
+<div><p class="textdescription">genres:</p><div>      </div><p class="textdescription2">action/comedy/superhero</p></div>
+<div><p class="textdescription">price:</p><div>       </div><p class="textdescription2">5$</p></div>
+
+
+</div>
 </div>
 </div>
 <div class="shop-movie-list">
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
 
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">greater</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
 
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
 
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
 
-<div><img class="basic-rectangle2" src="asset/images/Rectangle2.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
 
 </div>
 
 <div class="contact" id="contact">
-<div class="adress"> </div>
-<div class="call"> </div>
-<div class="email"> </div>
-<div class="social"> </div>
-<div class="form"> </div>
+<div class="contactimg">
+  <img class="contactdesign" src="asset/images/contactitem.jpg">
+</div>
+
+  <div class="contactform">
+    <div class="adress"> </div>
+    <div class="call"> </div>
+    <div class="email"> </div>
+    <div class="social"> </div>
+    <div class="form"> </div>
+  </div>
 </div>
 
 </div>
-
-<footer>
+<p></p>
+<footer id="footer">
 <div class="subscribe-to-us">
-<div class="subscibe-bar"> </div>
-<div class="logo-footer"> </div>
+  <h3 id="subscribetitle">SUBSCRIBE TO US</h3>
+  <img src="asset/images/logo.png" class="logobottom">
+<div class="subscribe-bar"><button type="button" id="sendbutton" name="button">send</button> </div>
 </div>
-<navbar></navbar>
+<hr style="width:74%">
+<nav id="bottomnav">
+<a href="#">MOVIES</a>
+<a href="#">FAQ</a>
+<a href="#">ACTION</a>
+<a href="#">POLICIER</a>
+<a href="#">ICONS</a>
+<a href="#">CONTACT US</a>
+
+</nav>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 
 </script>
