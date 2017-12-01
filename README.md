@@ -17,13 +17,13 @@
 
 ### Pierre
 
- -En-tête
- -Les boutons réseaux sociaux
--Section Films
--Section Featured Movies
--boutons pour filtrer les films par genre (Jquery ou JS). Si on clique sur le bouton ACTION par exemple, afficher uniquement les films d’actions
--Section Shop Movie
--Section Footer
+    -En-tête
+    -Les boutons réseaux sociaux
+    -Section Films
+    -Section Featured Movies
+    -boutons pour filtrer les films par genre (Jquery ou JS). Si on clique sur le bouton ACTION par exemple, afficher uniquement les films d’actions
+    -Section Shop Movie
+    -Section Footer
 
-    HTML
+  
 
