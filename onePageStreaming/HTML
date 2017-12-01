@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our superheroes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/squelette.css">
+
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery Version 1.11.1 -->
+<!-- jQuery Slidey 0.0.1 -->
+<link href="asset/Carousel/dist/jquery.slidey.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<!--<script src="dist/jquery.slidey.min.js"></script>-->
+
+
+
+</head>
+
+<body>
+
+
+<header>
+  <img src="asset/images/logo.png" class="logotop">
+
+  <div class="container">
+
+  	<div class="row">
+
+      <div class="col-xs-10 col-xs-offset-1">
+      <form action="#" method="#" role="search">
+      <div class="input-group">
+      <input class="form-control" placeholder="Recherche " name="srch-term" id="ed-srch-term" type="text">
+      <div class="input-group-btn">
+      <button type="submit" id="searchbtn">
+      Go</button>
+      </div>
+      </div>
+      </form>
+      </div>
+  	</div>
+  </div>
+  <div class="callheader">
+  <svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <path d="M10.2957509,7.85830849 L10.3390021,7.81173027 C10.1515802,7.67199561 9.9785754,7.51673488 9.81998765,7.34594807 L10.2957509,7.85830849 L10.2957509,7.85830849 Z M10.3390021,7.81173027 C11.0166043,8.27751247 11.809543,8.46382535 12.5880647,8.35514284 C12.6745671,8.83645111 11.6797894,9.58170263 10.4110874,10.932471 C8.88287823,12.5782348 8.45036619,13.0750691 7.78718106,13.1837516 C7.80159812,12.4540262 7.61417624,11.7553529 7.25374954,11.13431 C7.12399593,10.932471 6.97982525,10.7461581 6.8212375,10.5753713 L5.37953069,9.02276399 C4.84609917,8.44829928 3.96665802,8.46382535 3.41880944,9.05381613 L1.91943436,10.6685278 L0.420059284,12.2832394 C-0.127789301,12.8732302 -0.142206369,13.8203206 0.391225148,14.3947853 L1.83293195,15.9473927 C1.9915197,16.1181795 2.16452452,16.2734402 2.3519464,16.4131749 C3.40439237,17.1429003 4.7884309,17.1739525 5.89854514,16.5063313 C7.16724713,16.2423881 9.18563666,15.2642454 11.9969649,12.2366612 C15.1398858,8.85197718 15.6877343,6.76993076 15.6012319,5.65360609 C15.9184074,4.61335918 15.7886538,3.46442975 15.2408052,2.53286536 C15.1110516,2.3310264 14.9668809,2.14471352 14.8082932,1.97392672 L13.3665864,0.421319391 C12.8331549,-0.153145321 11.9537137,-0.137619248 11.4058651,0.452371537 L9.90649006,2.06708316 L8.40711498,3.68179478 C7.8592664,4.27178556 7.84484933,5.21887603 8.37828085,5.79334075 L9.81998765,7.34594807 C9.9785754,7.51673488 10.1515802,7.67199561 10.3390021,7.81173027 L10.3390021,7.81173027 Z M15.2408052,2.53286536 L15.2840564,2.48628714 L14.8082932,1.97392672 C14.9668809,2.14471352 15.1110516,2.3310264 15.2408052,2.53286536 L15.2408052,2.53286536 Z M2.3086952,16.4597531 L2.3519464,16.4131749 C2.16452452,16.2734402 1.9915197,16.1181795 1.83293195,15.9473927 L2.3086952,16.4597531 L2.3086952,16.4597531 Z M7.25374954,11.13431 L7.29700074,11.0877317 L6.8212375,10.5753713 C6.97982525,10.7461581 7.12399593,10.932471 7.25374954,11.13431 L7.25374954,11.13431 Z" id="Shape" fill="#4A4A4A"></path>
+      </g>
+  </svg>
+(+00)456865345 &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="loginbutton" name="button">send</button>
+</div>
+
+</header>
+<nav class="uppernav">
+<a href="#">HOME</a> |
+<a href="#">FILMS</a> |
+<a href="#">SERIES</a> |
+<a href="#"></a> |
+<a href="#"></a> |
+<a href="#"></a> |
+</nav>
+
+<div class="slide" id="slide">
+
+  <div id="slidey" style="display:none;">
+    <ul>
+      <li><img src="asset/Carousel/assets/1.jpg">
+        <p class="title">Star Wars</p>
+        <p class="description">After rescuing Han Solo from the palace of Jabba the Hutt, the rebels attempt to destroy the second Death Star, while Luke struggles to make Vader return from the dark side of the Force.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/2.jpg">
+        <p class="title">Silicon Valley</p>
+        <p class="description">Mike Judge brings his irreverent brand of humor to HBO in the new comedy series SILICON VALLEY. Partially inspired by Judge's own experiences as a Silicon Valley engineer in the late '80s, the show is a collaboration between Judge and Alec Berg.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/3.jpg">
+        <p class="title">Fringe</p>
+        <p class="description">The Fringe team explore the blurring line between the possible and the impossible. They are encountering glitches in the world they are living in, face threats from a parallel universe and try to prevent events that will lead to the destruction of their own universe.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/5.jpg">
+        <p class="title">Assassin's Creed</p>
+        <p class="description">hen Callum Lynch (Michael Fassbender) explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.</p>
+      </li>
+      <li><img src="asset/Carousel/assets/4.jpg">
+        <p class="title">Star Wars</p>
+        <p class="description">Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.</p>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="socialmedia" style="position:fixed; margin-top:15%">
+<ul>
+<li>Twitter</li>
+<li>Facebook</li>
+<li>Pinterest</li>
+<li>Google+</li>
+</ul>
+</div>
+
+<div class="main">
+
+<div class="vedettes">
+  <div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"> <p class="text-under-film">citizen</p><br />2017 drama</div>
+  <div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"> <p class="text-under-film">x-men</p><br />2017 Action</div>
+  <div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">asterix et cleopatre</p><br />2017 thriller</div>
+  <div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">light</p><br />2017 comedy</div>
+  <div><img class="basic-rectangle" src="asset/images/rectangle3.jpg"><p class="text-under-film">the bgf</p> <br />2017  drama</div>
+</div>
+
+<h2>FEATURED MOVIES</h2>
+<div class="feat-movies">
+  <a class="feat-movies-button" id="all">All</a>
+  <a class="feat-movies-button" id="action">Action</a>
+  <a class="feat-movies-button" id="policier">Policier</a>
+  <a class="feat-movies-button" id="comedy">Comedy</a>
+</div>
+
+
+<div class="main-block-movies">
+  <div><img class="basic-rectangle6 action policier" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017  drama</div>
+  <div class="action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017  Action</div>
+  <div class="action comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017  thriller</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+  <div class="action policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017  drama</div>
+  <div class=" action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017  Action</div>
+  <div class="comedy action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 thriller</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+  <div class="policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+  <div class=" policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017 drama</div>
+</div>
+
+<div class="main-block-movies" id="hidden">
+  <div><img class="basic-rectangle6 action policier" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div class="action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div class="action comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div class="action policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+  <div class=" action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+  <div class="comedy action"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div class="policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+  <div class="comedy"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+  <div class=" policier"><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+</div>
+<div class="plusdefilmbutton"><input type="button" class="plusdefilms" id="plus" value="plus de fims" style="align-items: center;"></div>
+<h2>FEATURED SERIES</h2>
+<div class="feat-series" id="feat-series">
+  <a class="feat-movies-button" id="all1">All</a>
+  <a class="feat-movies-button" id="action1">Action</a>
+  <a class="feat-movies-button" id="policier1">Policier</a>
+  <a class="feat-movies-button" id="comedy1">Comedy</a>
+  </div>
+
+
+<div class="main-block-series">
+  <div><img class="basic-rectangle6 action1 policier1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 drama</div>
+
+  <div><img class="basic-rectangle6 action1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 Action</div>
+
+  <div><img class="basic-rectangle6 action1 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 thriller</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 action1 policier1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 drama</div>
+
+  <div><img class="basic-rectangle6 action1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017  Action</div>
+
+  <div><img class="basic-rectangle6 action1 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 thriller</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017  comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+</div>
+
+<div class="main-block-movies" id="hiddenseries">
+  <div><img class="basic-rectangle6 action1 policier1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 action1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 Action</div>
+
+  <div><img class="basic-rectangle6 action1 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017  thriller</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 action1 policier1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 action1" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 Action</div>
+
+  <div><img class="basic-rectangle6 action1 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017  thriller</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  drama</div>
+
+  <div><img class="basic-rectangle6 comedy1" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017  comedy</div>
+
+  <div><img class="basic-rectangle6 policier1" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017 drama</div>
+</div>
+
+<input type="button" class="plusdefilms" id="plusdeseries" value="plus de series">
+
+
+
+
+<div class="feat-shop" id="feat-shop">
+<h2>SHOP MOVIES</h2>
+<div class="movie-listing-detail" id="movie-listing-detail">
+
+<div class="movie-listing-detail-video">
+
+<iframe width="100%" height="370" src="https://www.youtube.com/embed/BZ3VQkK6Upo?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div class="movie-listing-detail-overview">
+<div><p class="textdescriptiontitle">CAPTAIN AMERICA CIVILWAR</p></div>
+<div><p class="textdescription">Resume:</p><div>      </div><p class="textdescription2">I tried reading many questions on stackoverflow but all of them works for one image. <br /> I have multiple images with different dimensions.</p></div>
+<div><p class="textdescription">release date:</p><div></div><p class="textdescription2">23/11/2017</p></div>
+<div><p class="textdescription">genres:</p><div>      </div><p class="textdescription2">action/comedy/superhero</p></div>
+<div><p class="textdescription">price:</p><div>       </div><p class="textdescription2">5$</p></div>
+
+
+</div>
+</div>
+</div>
+<div class="shop-movie-list">
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">x-men</p><br />2017 &nbsp;&nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp; Action</div>
+
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">asterix et cleopatre</p><br />2017 &nbsp;&nbsp;     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thriller</div>
+
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">light</p><br />2017 &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; comedy</div>
+
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"><p class="text-under-films">the bgf</p> <br />2017  &nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drama</div>
+
+<div><img class="basic-rectangle6" src="asset/images/rectangle6.jpg"> <p class="text-under-films">citizen</p><br />2017 &nbsp;&nbsp;&nbsp      &nbsp;&nbsp;&nbsp;&nbsp; drama</div>
+
+</div>
+
+<div class="contact" id="contact">
+<div class="contactimg">
+  <img class="contactdesign" src="asset/images/contactitem.jpg">
+</div>
+
+  <div class="contactform">
+    <div class="adress"> </div>
+    <div class="call"> </div>
+    <div class="email"> </div>
+    <div class="social"> </div>
+    <div class="form"> </div>
+  </div>
+</div>
+
+</div>
+<p></p>
+<footer id="footer">
+<div class="subscribe-to-us">
+  <h3 id="subscribetitle">SUBSCRIBE TO US</h3>
+  <img src="asset/images/logo.png" class="logobottom">
+<div class="subscribe-bar"><button type="button" id="sendbutton" name="button">send</button> </div>
+</div>
+<hr style="width:74%">
+<nav id="bottomnav">
+<a href="#">MOVIES</a>
+<a href="#">FAQ</a>
+<a href="#">ACTION</a>
+<a href="#">POLICIER</a>
+<a href="#">ICONS</a>
+<a href="#">CONTACT US</a>
+
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="asset/Carousel/dist/jquery.dotdotdot.min.js"></script>
+<script src="asset/Carousel/jquery.slidey.js"></script>
+<script type="text/javascript"src="JS/javascript.js"></script>
+<script>
+$(document).ready(function(){
+
+
+  $("#slidey").slidey({
+    interval: 3000,
+    listCount: 5,
+    showList: true,
+    showNodes: false,
+    nodeContainer: ""
+  });
+})
+</script>
+
+</body>
+
+</html>
