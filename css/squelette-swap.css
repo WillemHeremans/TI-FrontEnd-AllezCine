@@ -1,0 +1,434 @@
+
+.hide{
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+.form-group {
+    margin:0;
+    padding:20px ;
+
+    &:first-child { border-color: transparent; }
+}
+.logotop{
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.form-control {
+  width: 400px !important;
+  padding: 0px 0px 0 0px;
+  margin-top: 10px;
+
+  margin-left: 140px !important;
+  color: #333;
+  font-size: 28px;
+  font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height:40px;
+    height: auto;
+
+    border-radius: 50px 0  0 50px !important;
+}
+.placeholder{
+  font-size: 28px;
+}
+.form-control :focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: transparent;
+
+    }
+
+#searchbtn{
+   border:0;
+   margin-right: 400px;
+  margin-top: 8px;
+  color: #fff;
+  background:black;
+  font-size: 17px;
+  font-weight: 500;
+
+    border-left: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  height: 40px;
+
+    width: 150px;
+border-radius: 0 50px 50px 0 !important;
+}
+.input-group{
+  margin-top: -50px !important;
+}
+.callheader{
+  float: right;
+  margin-top: -40px;
+  margin-right: 50px;
+}
+#loginbutton{
+float: right;
+margin-top: 2px;
+margin-right: 50px;
+background-color: #f28f43;
+color: white;
+height: 20px;
+width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+margin:0;
+background-color: white;}
+
+header{
+
+position: relative;
+
+width: 100%;
+height: 100px;
+}
+.uppernav {
+border: solid 2px green;
+overflow: hidden;
+background-color: #f28f43;
+width: 100%;
+height: 29px;
+position: relative;
+}
+nav a{
+display: inline-grid;
+width: 15%;
+position: relative;
+color: white;
+
+}
+
+div.slide{
+border: solid 2px violet;
+height:267px;
+width: 100%;
+}
+#slide:after {
+content: "";
+display: table;
+clear: both;
+}
+div.carrousel{
+border: solid 2px grey;
+height:267px;
+width: 80%;
+float:left;
+background-color: pink;
+}
+
+div.carrousel-item{
+border: solid 2px yellow;
+height:267px;
+width: 20%;
+float:right;
+background-color: darkmagenta;
+}
+div.carrousel-item-detail{
+border: solid 2px green;
+width: 100%;
+height:53px;
+float:right;
+background-color:black;
+display: block;
+}
+
+div.main{
+border: solid 2px red;
+position: relative;
+width: 80%;
+margin-right:10%;
+margin-left:10%;
+margin-top: 12%;
+height: 100%;
+
+}
+#main:after {
+content: "";
+display: table;
+clear: both;
+}
+div.vedettes{
+border: solid 2px grey;
+text-align: center;
+display: flex;
+width: 1000px;
+justify-content: space-around;
+margin-left: 0px;
+}
+
+.basic-rectangle {
+  display: flex;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+img.basic-rectangle6 {
+  display: flex;
+ flex-wrap: wrap;
+ padding: 0px;
+}
+#vedettes:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.text-under-film {
+  width: 80px;
+  text-align: right;
+padding: 0px !important;
+margin: 0px !important;
+}
+.shop-movie-list{
+  border: solid 0px grey;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+}
+div.feat-movies{
+border: solid 2px yellow;
+position: relative;
+height: 40px;
+}
+
+#feat-movies:after {
+content: "";
+display: table;
+clear: both;
+}
+#slide {
+width: 100%;
+height:260PX;
+}
+
+.feat-movies-button{
+border: solid 2px blue;
+background-color:#F2F0F1;
+float:left;
+position: relative;
+height:23px;
+width:9%;
+}
+#subscribetitle {
+  color: #f28f43;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+div.main-block-movies{
+
+  border: solid 0px grey;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.main-block-series{
+
+  border: solid 0px grey;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main-block-movies:after {
+content: "";
+display: table;
+clear: both;
+}
+.main-block-movies-hidden{
+
+}
+/*#main-block-series:after {
+content: "";
+display: table;
+clear: both;
+}*/
+#hidden, #hiddenseries{
+display: none;
+
+}
+div.feat-series{
+border: solid 2px green;
+position: relative;
+height: 40px;
+}
+#feat-series:after {
+content: "";
+display: table;
+clear: both;
+}
+/*div.main-block-series{
+border: solid 2px pink;
+position: inherit;
+height:250px;
+padding: 30px 15px;
+}*/
+#main-block-series:after {
+content: "";
+display: table;
+clear: both;
+}
+div.more-filters {
+border: solid 2px red;
+background-color:#f28f43;
+height:23px;
+width:10%;
+margin-left: 45%;
+margin-right: 45%;
+margin-top: 25px;
+margin-bottom: 25px;
+display: inline-block;
+position: inherit;
+}
+div.movie-listing {
+border: solid 2px green;
+background-color:lightgrey;
+height:200px;
+width:12%;
+padding: 4px 0px;
+margin-top: 25px;
+margin-right:25px;
+margin-left:25px;
+display:inline-block;
+}
+div.feat-shop{
+height:auto;
+border: solid 2px yellow;
+margin-top: 20px;
+position: inherit;
+}
+#feat-shop:after {
+content: "";
+display: table;
+clear: both;
+}
+div.movie-listing-detail{
+border: solid 2px blue;
+width:100%;
+height: 370px;
+}
+#movie-listing-detail:after {
+content: "";
+display: table;
+clear: both;
+}
+div.movie-listing-detail-video{
+border: solid 2px grey;
+width:50%;
+float:left;
+height: 370px;
+}
+div.movie-listing-detail-overview{
+border: solid 2px yellow;
+width:50%;
+float:right;
+background-color:#f28f43;
+height: 370px;
+}
+.plusdefilmbutton{
+  align-items: center !important;
+
+}
+
+.plusdefilms{
+  color: black !important;
+  text-align: center !important;
+  align-items: center !important;
+  background-color: orange;
+}
+.textdescriptiontitle{
+  font-weight: bold;
+  color: black;
+  margin-left: 50px;
+}
+.textdescription{
+  color: white;
+  font-size: 17px;
+}
+.textdescription2{
+  margin-left: 80px;
+  color: white;
+  font-size: 15px;
+}
+.contactimg {
+  justify-content: center;
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+div.contactform{
+position: relative;
+border: solid 2px pink;
+height:250px;
+width:20.8%;
+padding:8px 8px;
+}
+#contact:after {
+content: "";
+display: table;
+clear: both;
+}
+.subscribe-bar{
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  border-style: double;
+  border-color: grey;
+}
+
+.logobottom{
+  margin-right: 180px;
+  float:right;
+}
+#bottomnav{
+  margin-right: 140px;
+  float:right;
+  font-size: 9px;
+  width: 30%
+}
+#sendbutton{
+  margin-left: 211px;
+background-color: #f28f43;
+color: white;
+height: 36px;
+width: 85px;
+}
+
+#footer{
+  width: 100%;
+  background-color: #212121;
+  height: 200px;
+}
+
